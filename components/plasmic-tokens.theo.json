@@ -1,0 +1,79 @@
+{
+  "props": [
+    {
+      "name": "16px",
+      "type": "spacing",
+      "value": "0ch",
+      "category": "spacing",
+      "meta": {
+        "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+        "id": "UgyVn9UwK"
+      }
+    },
+    {
+      "name": "16px pad",
+      "type": "spacing",
+      "value": "16px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+        "id": "qm4XzDXuG"
+      }
+    },
+    {
+      "name": "18px",
+      "type": "fontsize",
+      "value": "18px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+        "id": "Bz8tcN47g"
+      }
+    },
+    {
+      "name": "20px",
+      "type": "fontsize",
+      "value": "20px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+        "id": "_bJsKTNB3"
+      }
+    },
+    {
+      "name": "36px",
+      "type": "lineheight",
+      "value": "36px",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+        "id": "t0OEBulG0"
+      }
+    },
+    {
+      "name": "48px",
+      "type": "lineheight",
+      "value": "48px",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+        "id": "CB_1vngu0"
+      }
+    },
+    {
+      "name": "56px",
+      "type": "lineheight",
+      "value": "56px",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+        "id": "vH9w53Cvk"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

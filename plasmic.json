@@ -1,0 +1,703 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+      "projectApiToken": "zHm04t0WXM4el4jes9IX220NNjZSUXTkqvwKFALhwOcmv2ilIYw3JdV27mMPipa02LaUChc6XjBA9Ng",
+      "projectName": "Demassu's Portfolio",
+      "version": "latest",
+      "cssFilePath": "plasmic/demassus_portfolio/plasmic_demassus_portfolio.module.css",
+      "components": [
+        {
+          "id": "5SbkqO9jVhYB",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+          "renderModuleFilePath": "plasmic/demassus_portfolio/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/demassus_portfolio/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "2vOhJPwl--",
+          "name": "CoCreate",
+          "type": "managed",
+          "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+          "renderModuleFilePath": "plasmic/demassus_portfolio/PlasmicCoCreate.tsx",
+          "importSpec": {
+            "modulePath": "../pages/cocreate.tsx"
+          },
+          "cssFilePath": "plasmic/demassus_portfolio/PlasmicCoCreate.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "5ODPvkmS-H",
+          "name": "Billie",
+          "type": "managed",
+          "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+          "renderModuleFilePath": "plasmic/demassus_portfolio/PlasmicBillie.tsx",
+          "importSpec": {
+            "modulePath": "../pages/billie.tsx"
+          },
+          "cssFilePath": "plasmic/demassus_portfolio/PlasmicBillie.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "0fXKOlQr_Q",
+          "name": "Heading1CoCreateRevampHome",
+          "type": "managed",
+          "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+          "renderModuleFilePath": "plasmic/demassus_portfolio/PlasmicHeading1CoCreateRevampHome.tsx",
+          "importSpec": {
+            "modulePath": "Heading1CoCreateRevampHome.tsx"
+          },
+          "cssFilePath": "plasmic/demassus_portfolio/PlasmicHeading1CoCreateRevampHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "rfm9MehGJF",
+          "name": "Heading1BillieHome",
+          "type": "managed",
+          "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+          "renderModuleFilePath": "plasmic/demassus_portfolio/PlasmicHeading1BillieHome.tsx",
+          "importSpec": {
+            "modulePath": "Heading1BillieHome.tsx"
+          },
+          "cssFilePath": "plasmic/demassus_portfolio/PlasmicHeading1BillieHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8eZExgQPCQ",
+          "name": "NavMenuItemBase",
+          "type": "managed",
+          "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+          "renderModuleFilePath": "plasmic/demassus_portfolio/PlasmicNavMenuItemBase.tsx",
+          "importSpec": {
+            "modulePath": "NavMenuItemBase.tsx"
+          },
+          "cssFilePath": "plasmic/demassus_portfolio/PlasmicNavMenuItemBase.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "5Mzr4hHPVsU",
+          "name": "Select",
+          "type": "managed",
+          "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+          "renderModuleFilePath": "plasmic/demassus_portfolio/PlasmicSelect.tsx",
+          "importSpec": {
+            "modulePath": "Select.tsx"
+          },
+          "cssFilePath": "plasmic/demassus_portfolio/PlasmicSelect.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select"
+        },
+        {
+          "id": "tGGwpP0Zy5t",
+          "name": "Select__Option",
+          "type": "managed",
+          "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+          "renderModuleFilePath": "plasmic/demassus_portfolio/PlasmicSelect__Option.tsx",
+          "importSpec": {
+            "modulePath": "Select__Option.tsx"
+          },
+          "cssFilePath": "plasmic/demassus_portfolio/PlasmicSelect__Option.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option"
+        },
+        {
+          "id": "2fDT-cBWlbe",
+          "name": "Select__OptionGroup",
+          "type": "managed",
+          "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+          "renderModuleFilePath": "plasmic/demassus_portfolio/PlasmicSelect__OptionGroup.tsx",
+          "importSpec": {
+            "modulePath": "Select__OptionGroup.tsx"
+          },
+          "cssFilePath": "plasmic/demassus_portfolio/PlasmicSelect__OptionGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option-group"
+        },
+        {
+          "id": "rhisCgZc5gz",
+          "name": "Select__Overlay",
+          "type": "managed",
+          "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+          "renderModuleFilePath": "plasmic/demassus_portfolio/PlasmicSelect__Overlay.tsx",
+          "importSpec": {
+            "modulePath": "Select__Overlay.tsx"
+          },
+          "cssFilePath": "plasmic/demassus_portfolio/PlasmicSelect__Overlay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "triggered-overlay"
+        }
+      ],
+      "icons": [
+        {
+          "id": "6GYC6RVwMYIyI",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "n0bsTzwaumz-t",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "yw3nQG47dL",
+          "name": "ChevronDownIcon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__ChevronDown.tsx"
+        },
+        {
+          "id": "LmPagN-SfgP",
+          "name": "DividerIcon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Divider.tsx"
+        },
+        {
+          "id": "_bZJ40emi_D",
+          "name": "_Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon___.tsx"
+        },
+        {
+          "id": "1V4W87LMsQ",
+          "name": "Star1Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Star1.tsx"
+        },
+        {
+          "id": "2pP3BHFtR5c",
+          "name": "ArrowUpRightIcon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__ArrowUpRight.tsx"
+        },
+        {
+          "id": "Wr6gZ2HSIo6",
+          "name": "TooltipIcon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Tooltip.tsx"
+        },
+        {
+          "id": "R_zhAArtfms",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Vector.tsx"
+        },
+        {
+          "id": "RF7TKyUS8oo",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Vector2.tsx"
+        },
+        {
+          "id": "Iobb-Zl7CCb",
+          "name": "Vector1Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Vector1.tsx"
+        },
+        {
+          "id": "t82AOvqMk7W",
+          "name": "Vector3Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Vector3.tsx"
+        },
+        {
+          "id": "51RKF6cDQfy",
+          "name": "Ellipse7Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Ellipse7.tsx"
+        },
+        {
+          "id": "IeTRSW7mmxp",
+          "name": "Ellipse8Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Ellipse8.tsx"
+        },
+        {
+          "id": "_vSzeZqaRoL",
+          "name": "Vector5Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Vector5.tsx"
+        },
+        {
+          "id": "MUr-BROrGri",
+          "name": "Group2Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Group2.tsx"
+        },
+        {
+          "id": "3UHyC4uq_2U",
+          "name": "Vector6Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Vector6.tsx"
+        },
+        {
+          "id": "F0rSrg9E2",
+          "name": "Vector7Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Vector7.tsx"
+        },
+        {
+          "id": "2m9V71gHeT",
+          "name": "Group3Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Group3.tsx"
+        },
+        {
+          "id": "obBPtVSuIA",
+          "name": "Group4Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Group4.tsx"
+        },
+        {
+          "id": "DfagCCOo9t",
+          "name": "Group5Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Group5.tsx"
+        },
+        {
+          "id": "70TgVcmfsI",
+          "name": "Group6Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Group6.tsx"
+        },
+        {
+          "id": "I5JUxPIe_g",
+          "name": "Group7Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Group7.tsx"
+        },
+        {
+          "id": "IgIT7GP-r6w",
+          "name": "Group8Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Group8.tsx"
+        },
+        {
+          "id": "38jUI2LO_p1",
+          "name": "Divider2Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Divider2.tsx"
+        },
+        {
+          "id": "HdoiaBbrISt",
+          "name": "ArrowUpRight2Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__ArrowUpRight2.tsx"
+        },
+        {
+          "id": "uw4pZXGSsHR",
+          "name": "CopyIcon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Copy.tsx"
+        },
+        {
+          "id": "gZGI1rzKvh3",
+          "name": "SocialIconIcon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__SocialIcon.tsx"
+        },
+        {
+          "id": "Eb0gYTi_mFB",
+          "name": "SocialIcon2Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__SocialIcon2.tsx"
+        },
+        {
+          "id": "qMs2HlFO61W",
+          "name": "Group9Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Group9.tsx"
+        },
+        {
+          "id": "VuHUlcK6K1",
+          "name": "ChevronUpIcon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__ChevronUp.tsx"
+        },
+        {
+          "id": "vYYAqZjHf4",
+          "name": "NavIconBaseIcon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__NavIconBase.tsx"
+        },
+        {
+          "id": "d_W2aNfKI",
+          "name": "NavIconBase2Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__NavIconBase2.tsx"
+        },
+        {
+          "id": "-_oHFhlz68",
+          "name": "NavIconBase3Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__NavIconBase3.tsx"
+        },
+        {
+          "id": "fhFG5yWwxho",
+          "name": "ChevronDownsvgIcon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__ChevronDownsvg.tsx"
+        },
+        {
+          "id": "BqaKDXkOo_k",
+          "name": "ChevronUpsvgIcon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__ChevronUpsvg.tsx"
+        },
+        {
+          "id": "d_VqTS2vI56",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "9EHhP9RDWAq",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/demassus_portfolio/icons/PlasmicIcon__Icon4.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "FOuShviXPuTX7",
+          "name": "image.png",
+          "filePath": "../public/plasmic/demassus_portfolio/images/imagepng.jpeg"
+        },
+        {
+          "id": "7lFlNIAti",
+          "name": "Hero Section Container",
+          "filePath": "../public/plasmic/demassus_portfolio/images/heroSectionContainer.png"
+        },
+        {
+          "id": "f78aRKEVOg",
+          "name": "Image",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image.png"
+        },
+        {
+          "id": "qIvPca94FG",
+          "name": "Frame 124",
+          "filePath": "../public/plasmic/demassus_portfolio/images/frame124.png"
+        },
+        {
+          "id": "6w4PqNOGuq",
+          "name": "Frame 126",
+          "filePath": "../public/plasmic/demassus_portfolio/images/frame126.png"
+        },
+        {
+          "id": "l_0kRsO2P",
+          "name": "Frame 125",
+          "filePath": "../public/plasmic/demassus_portfolio/images/frame125.png"
+        },
+        {
+          "id": "4krw5VsvOB",
+          "name": "Frame 127",
+          "filePath": "../public/plasmic/demassus_portfolio/images/frame127.png"
+        },
+        {
+          "id": "p1nGucNtBBS",
+          "name": "Dropdown header navigation",
+          "filePath": "../public/plasmic/demassus_portfolio/images/dropdownHeaderNavigation.svg"
+        },
+        {
+          "id": "8BOMoKtmhvl",
+          "name": "Ellipse 2",
+          "filePath": "../public/plasmic/demassus_portfolio/images/ellipse2.svg"
+        },
+        {
+          "id": "2RjRUB5N2Dt",
+          "name": "Ellipse 6",
+          "filePath": "../public/plasmic/demassus_portfolio/images/ellipse6.svg"
+        },
+        {
+          "id": "ttBxKi1_DgB",
+          "name": "Ellipse 3",
+          "filePath": "../public/plasmic/demassus_portfolio/images/ellipse3.svg"
+        },
+        {
+          "id": "V4IEiopoYJL",
+          "name": "Ellipse 1",
+          "filePath": "../public/plasmic/demassus_portfolio/images/ellipse1.svg"
+        },
+        {
+          "id": "-aaFzwkIYl",
+          "name": "Ellipse 5",
+          "filePath": "../public/plasmic/demassus_portfolio/images/ellipse5.svg"
+        },
+        {
+          "id": "TTXzWk1xGf",
+          "name": "Ellipse 4",
+          "filePath": "../public/plasmic/demassus_portfolio/images/ellipse4.svg"
+        },
+        {
+          "id": "FzBt6_JTHy",
+          "name": "Circle Down",
+          "filePath": "../public/plasmic/demassus_portfolio/images/circleDown.svg"
+        },
+        {
+          "id": "Ne-IeIbpXf8",
+          "name": "Ellipse 9",
+          "filePath": "../public/plasmic/demassus_portfolio/images/ellipse9.svg"
+        },
+        {
+          "id": "ESW0aB8h0Q0",
+          "name": "Letter",
+          "filePath": "../public/plasmic/demassus_portfolio/images/letter.svg"
+        },
+        {
+          "id": "N9ExYQQRYTS",
+          "name": "Group 1",
+          "filePath": "../public/plasmic/demassus_portfolio/images/group1.svg"
+        },
+        {
+          "id": "rHdH-tmIv78",
+          "name": "Group",
+          "filePath": "../public/plasmic/demassus_portfolio/images/group.svg"
+        },
+        {
+          "id": "0A6nj-97W-h",
+          "name": "Ellipse 10",
+          "filePath": "../public/plasmic/demassus_portfolio/images/ellipse10.svg"
+        },
+        {
+          "id": "-AtbwOdZdTb",
+          "name": "Vector 4",
+          "filePath": "../public/plasmic/demassus_portfolio/images/vector4.svg"
+        },
+        {
+          "id": "lS1lrlC7HnQ",
+          "name": "Vector 8",
+          "filePath": "../public/plasmic/demassus_portfolio/images/vector8.svg"
+        },
+        {
+          "id": "xSiXRG95D",
+          "name": "Image 2",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image2.png"
+        },
+        {
+          "id": "_UubO63bJb",
+          "name": "Image 3",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image3.png"
+        },
+        {
+          "id": "R7ho3H2jRq",
+          "name": "Image 4",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image4.png"
+        },
+        {
+          "id": "nw7pJNNbOo",
+          "name": "Image 5",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image5.png"
+        },
+        {
+          "id": "RDtVWg4iw1",
+          "name": "Image 6",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image6.png"
+        },
+        {
+          "id": "udA0cuOVhg",
+          "name": "Image 7",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image7.png"
+        },
+        {
+          "id": "xOWynizgd",
+          "name": "Image 8",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image8.png"
+        },
+        {
+          "id": "FLQoXJulRp",
+          "name": "Image 9",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image9.png"
+        },
+        {
+          "id": "56-AoI454G",
+          "name": "Image 10",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image10.png"
+        },
+        {
+          "id": "l1HLIpPxl_",
+          "name": "Image 11",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image11.png"
+        },
+        {
+          "id": "tKfseOJ6Xn",
+          "name": "Image 14",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image14.png"
+        },
+        {
+          "id": "z0oDsNfyYj",
+          "name": "Image 17",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image17.png"
+        },
+        {
+          "id": "SOfGL7VVQe",
+          "name": "Image 12",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image12.png"
+        },
+        {
+          "id": "leg0ZTsPSJ",
+          "name": "Image 13",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image13.png"
+        },
+        {
+          "id": "x4-MMeTjBh",
+          "name": "Image 15",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image15.jpeg"
+        },
+        {
+          "id": "z7r8BFlmI3",
+          "name": "Image 16",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image16.jpeg"
+        },
+        {
+          "id": "1GO39ZXUpJ",
+          "name": "Avatar",
+          "filePath": "../public/plasmic/demassus_portfolio/images/avatar.jpeg"
+        },
+        {
+          "id": "pBpzV7H4P_",
+          "name": "Header Image",
+          "filePath": "../public/plasmic/demassus_portfolio/images/headerImage.svg"
+        },
+        {
+          "id": "-s0Rsz9Rm",
+          "name": "Image 18",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image18.png"
+        },
+        {
+          "id": "_bUmvdlPc1",
+          "name": "Image 19",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image19.png"
+        },
+        {
+          "id": "Cw9UfzwvcU",
+          "name": "Image 20",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image20.png"
+        },
+        {
+          "id": "10cz4xiEuV",
+          "name": "Image 21",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image21.png"
+        },
+        {
+          "id": "U0NL_Vy0va",
+          "name": "Image 22",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image22.png"
+        },
+        {
+          "id": "IUSODkACRU",
+          "name": "Image 23",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image23.png"
+        },
+        {
+          "id": "A68_miKbjE",
+          "name": "Image 24",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image24.png"
+        },
+        {
+          "id": "f3IqNpg_BT",
+          "name": "Image 25",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image25.png"
+        },
+        {
+          "id": "dH2hhdYuvC",
+          "name": "Image 26",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image26.png"
+        },
+        {
+          "id": "--k5us2S4_",
+          "name": "Image 27",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image27.png"
+        },
+        {
+          "id": "_z1IWsYt2E",
+          "name": "Image 28",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image28.png"
+        },
+        {
+          "id": "IhmM7UWLin",
+          "name": "Image 29",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image29.jpeg"
+        },
+        {
+          "id": "WSlSt9ww9L",
+          "name": "Image 30",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image30.png"
+        },
+        {
+          "id": "KmZyjcrrEo",
+          "name": "Image 31",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image31.png"
+        },
+        {
+          "id": "JLdnP-m4zW",
+          "name": "Image 32",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image32.png"
+        },
+        {
+          "id": "3XrlIMlQYA",
+          "name": "Image 33",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image33.jpeg"
+        },
+        {
+          "id": "SjXyli-C4B1",
+          "name": "Image 34",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image34.png"
+        },
+        {
+          "id": "RYVBTpbvo",
+          "name": "Image 35",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image35.png"
+        },
+        {
+          "id": "M0PEKSOmtK",
+          "name": "Image 36",
+          "filePath": "../public/plasmic/demassus_portfolio/images/image36.png"
+        },
+        {
+          "id": "nVgjRoXGAx",
+          "name": "Header Image 2",
+          "filePath": "../public/plasmic/demassus_portfolio/images/headerImage2.svg"
+        },
+        {
+          "id": "zDcrwStek",
+          "name": "Hands Show",
+          "filePath": "../public/plasmic/demassus_portfolio/images/handsShow.png"
+        },
+        {
+          "id": "iqBVydklt",
+          "name": "Hands Random Stuff",
+          "filePath": "../public/plasmic/demassus_portfolio/images/handsRandomStuff.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "s8n69O_Ui87-l",
+        "name": "Screen",
+        "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+        "contextFilePath": "plasmic/demassus_portfolio/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "1OpKMwqNFM",
+        "name": "Nav",
+        "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+        "contextFilePath": "plasmic/demassus_portfolio/PlasmicGlobalVariant__Nav.tsx"
+      },
+      {
+        "id": "JHa4bKySEJ",
+        "name": "NavBarButton",
+        "projectId": "vrXCB8dxA4nVS6MjHefASJ",
+        "contextFilePath": "plasmic/demassus_portfolio/PlasmicGlobalVariant__NavBarButton.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.175",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.175/dist/plasmic.schema.json"
+}

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 575 512">
+  <g clip-path="url(#GXA_TaCH9iwa)">
+    <path d="M0 422l84 90H0v-90z" fill="url(#GXA_TaCH9iwb)"/>
+    <path d="M0 422h85l85 90H84L0 422z" fill="url(#GXA_TaCH9iwc)"/>
+    <path d="M85 422v-83l173 173h-88l-85-90z" fill="url(#GXA_TaCH9iwd)"/>
+    <path d="M85 339h88l188 173H256L85 339z" fill="url(#GXA_TaCH9iwe)"/>
+    <path d="M173 339v-84l293 257H361L173 339z" fill="url(#GXA_TaCH9iwf)"/>
+    <path d="M173 255h83l315 257H466L173 255z" fill="url(#GXA_TaCH9iwg)"/>
+    <path d="M256 255v-88l420 345H571L256 255z" fill="url(#GXA_TaCH9iwh)"/>
+    <path d="M341 167V84l545 428H781L341 167z" fill="url(#GXA_TaCH9iwi)"/>
+    <path d="M341 84h88l562 428H886L341 84z" fill="url(#GXA_TaCH9iwj)"/>
+    <path d="M429 0h86l686 512h-105L429 0z" fill="url(#GXA_TaCH9iwk)"/>
+    <path d="M429 84V0l667 512H991L429 84z" fill="url(#GXA_TaCH9iwl)"/>
+    <path d="M256 167h85l440 345H676L256 167z" fill="url(#GXA_TaCH9iwm)"/>
+    <path d="M513 0v-84l667 512h-105L513 0z" fill="url(#GXA_TaCH9iwn)"/>
+  </g>
+  <defs>
+    <linearGradient id="GXA_TaCH9iwb" x1="42" y1="422" x2="42" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6337C5"/>
+      <stop offset="1" stop-color="#EFEFEF"/>
+    </linearGradient>
+    <linearGradient id="GXA_TaCH9iwc" x1="85" y1="422" x2="85" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EFEFEF"/>
+      <stop offset="1" stop-color="#6941C6"/>
+    </linearGradient>
+    <linearGradient id="GXA_TaCH9iwd" x1="171.5" y1="339" x2="171.5" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6337C5"/>
+      <stop offset="1" stop-color="#EFEFEF"/>
+    </linearGradient>
+    <linearGradient id="GXA_TaCH9iwe" x1="223" y1="339" x2="223" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EFEFEF"/>
+      <stop offset="1" stop-color="#6941C6"/>
+    </linearGradient>
+    <linearGradient id="GXA_TaCH9iwf" x1="319.5" y1="255" x2="319.5" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6337C5"/>
+      <stop offset="1" stop-color="#EFEFEF"/>
+    </linearGradient>
+    <linearGradient id="GXA_TaCH9iwg" x1="372" y1="255" x2="372" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EFEFEF"/>
+      <stop offset="1" stop-color="#6941C6"/>
+    </linearGradient>
+    <linearGradient id="GXA_TaCH9iwh" x1="466" y1="167" x2="466" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6337C5"/>
+      <stop offset="1" stop-color="#EFEFEF"/>
+    </linearGradient>
+    <linearGradient id="GXA_TaCH9iwi" x1="613.5" y1="84" x2="613.5" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6337C5"/>
+      <stop offset="1" stop-color="#EFEFEF"/>
+    </linearGradient>
+    <linearGradient id="GXA_TaCH9iwj" x1="666" y1="84" x2="666" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EFEFEF"/>
+      <stop offset="1" stop-color="#6941C6"/>
+    </linearGradient>
+    <linearGradient id="GXA_TaCH9iwk" x1="815" y1="0" x2="815" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EFEFEF"/>
+      <stop offset="1" stop-color="#6941C6"/>
+    </linearGradient>
+    <linearGradient id="GXA_TaCH9iwl" x1="762.5" y1="0" x2="762.5" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6337C5"/>
+      <stop offset="1" stop-color="#EFEFEF"/>
+    </linearGradient>
+    <linearGradient id="GXA_TaCH9iwm" x1="518.5" y1="167" x2="518.5" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EFEFEF"/>
+      <stop offset="1" stop-color="#6941C6"/>
+    </linearGradient>
+    <linearGradient id="GXA_TaCH9iwn" x1="846.5" y1="-84" x2="846.5" y2="428" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6337C5"/>
+      <stop offset="1" stop-color="#EFEFEF"/>
+    </linearGradient>
+    <clipPath id="GXA_TaCH9iwa">
+      <path fill="#fff" d="M0 0h575v512H0z"/>
+    </clipPath>
+  </defs>
+</svg>

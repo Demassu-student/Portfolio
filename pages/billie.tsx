@@ -2,10 +2,10 @@
 // This file is owned by you, feel free to edit as you see fit.
 import * as React from "react";
 
-import { ScreenVariantProvider } from "../components/plasmic/demassus_portfolio/PlasmicGlobalVariant__Screen";
-import { NavContext } from "../components/plasmic/demassus_portfolio/PlasmicGlobalVariant__Nav";
-import { NavBarButtonContext } from "../components/plasmic/demassus_portfolio/PlasmicGlobalVariant__NavBarButton";
-import { PlasmicBillie } from "../components/plasmic/demassus_portfolio/PlasmicBillie";
+import { ScreenVariantProvider } from "../components/plasmic/copy_of_demassus_portfolio/PlasmicGlobalVariant__Screen";
+import { NavContext } from "../components/plasmic/copy_of_demassus_portfolio/PlasmicGlobalVariant__Nav";
+import { NavBarButtonContext } from "../components/plasmic/copy_of_demassus_portfolio/PlasmicGlobalVariant__NavBarButton";
+import { PlasmicBillie } from "../components/plasmic/copy_of_demassus_portfolio/PlasmicBillie";
 
 function Billie() {
   // Use PlasmicBillie to render this component as it was

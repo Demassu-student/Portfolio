@@ -1,0 +1,63 @@
+.root {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+.heading3 {
+  display: block;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 32px;
+  color: rgba(15, 23, 40, 1);
+  position: relative;
+  width: 576px;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .heading3 {
+    width: 380px;
+    padding-right: 16px;
+    padding-left: 16px;
+    align-self: center;
+    flex-shrink: 0;
+  }
+}
+.root:hover .heading3 {
+  color: #6941c6;
+}
+.iconWrap3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 4px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #101828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.root:hover .svg {
+  color: #6941c6;
+}

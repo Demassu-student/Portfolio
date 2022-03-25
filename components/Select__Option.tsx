@@ -2,7 +2,7 @@ import * as React from "react";
 import {
   PlasmicSelect__Option,
   DefaultSelect__OptionProps
-} from "./plasmic/demassus_portfolio/PlasmicSelect__Option";
+} from "./plasmic/copy_of_demassus_portfolio/PlasmicSelect__Option";
 import { SelectOptionRef } from "@plasmicapp/react-web";
 
 interface Select__OptionProps extends DefaultSelect__OptionProps {}

@@ -2,7 +2,7 @@ import * as React from "react";
 import {
   PlasmicSelect__OptionGroup,
   DefaultSelect__OptionGroupProps
-} from "./plasmic/demassus_portfolio/PlasmicSelect__OptionGroup";
+} from "./plasmic/copy_of_demassus_portfolio/PlasmicSelect__OptionGroup";
 
 interface Select__OptionGroupProps extends DefaultSelect__OptionGroupProps {}
 

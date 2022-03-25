@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   PlasmicNavMenuItemBase,
   DefaultNavMenuItemBaseProps
-} from "./plasmic/demassus_portfolio/PlasmicNavMenuItemBase";
+} from "./plasmic/copy_of_demassus_portfolio/PlasmicNavMenuItemBase";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined

@@ -11,6 +11,16 @@
       }
     },
     {
+      "name": "16px",
+      "type": "spacing",
+      "value": "0ch",
+      "category": "spacing",
+      "meta": {
+        "projectId": "5nhZ9m14m3GkNgmNfUwqFT",
+        "id": "XvJ1GTgbwUcvDW"
+      }
+    },
+    {
       "name": "16px pad",
       "type": "spacing",
       "value": "16px",
@@ -18,6 +28,16 @@
       "meta": {
         "projectId": "vrXCB8dxA4nVS6MjHefASJ",
         "id": "qm4XzDXuG"
+      }
+    },
+    {
+      "name": "16px pad",
+      "type": "spacing",
+      "value": "16px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "5nhZ9m14m3GkNgmNfUwqFT",
+        "id": "DDv7UByWj615rd"
       }
     },
     {
@@ -31,6 +51,16 @@
       }
     },
     {
+      "name": "18px",
+      "type": "fontsize",
+      "value": "18px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "5nhZ9m14m3GkNgmNfUwqFT",
+        "id": "csxNgTyU6vq71C"
+      }
+    },
+    {
       "name": "20px",
       "type": "fontsize",
       "value": "20px",
@@ -38,6 +68,16 @@
       "meta": {
         "projectId": "vrXCB8dxA4nVS6MjHefASJ",
         "id": "_bJsKTNB3"
+      }
+    },
+    {
+      "name": "20px",
+      "type": "fontsize",
+      "value": "20px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "5nhZ9m14m3GkNgmNfUwqFT",
+        "id": "pKZdy3LQfoU7K3"
       }
     },
     {
@@ -51,6 +91,16 @@
       }
     },
     {
+      "name": "36px",
+      "type": "lineheight",
+      "value": "36px",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "5nhZ9m14m3GkNgmNfUwqFT",
+        "id": "cQLsU4NqlzWCPZ"
+      }
+    },
+    {
       "name": "48px",
       "type": "lineheight",
       "value": "48px",
@@ -61,6 +111,16 @@
       }
     },
     {
+      "name": "48px",
+      "type": "lineheight",
+      "value": "48px",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "5nhZ9m14m3GkNgmNfUwqFT",
+        "id": "ICl1ESNad3c0Tl"
+      }
+    },
+    {
       "name": "56px",
       "type": "lineheight",
       "value": "56px",
@@ -68,6 +128,16 @@
       "meta": {
         "projectId": "vrXCB8dxA4nVS6MjHefASJ",
         "id": "vH9w53Cvk"
+      }
+    },
+    {
+      "name": "56px",
+      "type": "lineheight",
+      "value": "56px",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "5nhZ9m14m3GkNgmNfUwqFT",
+        "id": "YxCFe5u2EpjPF2"
       }
     }
   ],

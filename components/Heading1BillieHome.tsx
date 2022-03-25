@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   PlasmicHeading1BillieHome,
   DefaultHeading1BillieHomeProps
-} from "./plasmic/demassus_portfolio/PlasmicHeading1BillieHome";
+} from "./plasmic/copy_of_demassus_portfolio/PlasmicHeading1BillieHome";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined
